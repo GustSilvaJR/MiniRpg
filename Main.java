@@ -1,5 +1,12 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+
+    Pessoa p1 = new Pessoa("Gustavo", 21);
+
+    System.out.println(p1.nome);
+    System.out.println(p1.idade);
+
+    
+    
   }
 }
